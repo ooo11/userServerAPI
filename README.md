@@ -1,8 +1,12 @@
 # Login server starting file using PassportJS
 
-## REGESTER
+I hate to repeat stuff so here is all the shit you need to make your own user based website. 👻
 
-'POST': http://localhost:4000/user/register
+## Register
+
+Can add more detail if you want to, but here is the basic.
+
+`POST`: http://localhost:4000/user/register
 
 ```javascript
 {
@@ -12,9 +16,11 @@
 }
 ```
 
-# LOGIN
+## Login
 
-'POST': http://localhost:4000/user/login
+Good Old login
+
+`POST`: http://localhost:4000/user/login
 
 ```javascript
 {
@@ -23,7 +29,7 @@
 }
 ```
 
-Edit your own login redirect:
+Edit your own login redirect as shown.
 
 ```javascript
 exports.loginUser = async (req, res) => {
@@ -52,10 +58,10 @@ exports.loginUser = async (req, res) => {
 };
 ```
 
-## LOGOUT
+## Logout
 
-'GET': http://localhost:4000/user/logout
+`GET`: http://localhost:4000/user/logout
 
-## GET USER DATA
+## Get user data
 
-'GET': http://localhost:4000/user/me
+`GET`: http://localhost:4000/user/
