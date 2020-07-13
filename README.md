@@ -2,6 +2,13 @@
 
 I hate to repeat stuff so here is all the shit you need to make your own user based website. 👻
 
+MongoDB | Javascript | NodeJS | PassportJS |
+
+1. Make your own `.env` file and add
+   `MY_SECRET_KEY=Writeyourownsecretkeyhere`
+2. `$ npm install`
+3. `$ npm run serve`
+
 ## Register
 
 Can add more detail if you want to, but here is the basic.
