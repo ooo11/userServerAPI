@@ -1,6 +1,6 @@
-## Login server starting file using PassportJS
+# Login server starting file using PassportJS
 
-# REGESTER
+## REGESTER
 
 'POST': http://localhost:4000/user/register
 
@@ -52,10 +52,10 @@ exports.loginUser = async (req, res) => {
 };
 ```
 
-# LOGOUT
+## LOGOUT
 
 'GET': http://localhost:4000/user/logout
 
-# GET USER DATA
+## GET USER DATA
 
 'GET': http://localhost:4000/user/me
